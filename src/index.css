@@ -1,0 +1,19 @@
+@font-face{
+  font-family: 'Girassol-Regular';
+  src: url('./fonts/Girassol-Regular.ttf');
+}
+
+*{
+  font-family: 'Girasol-Regular, monospace';
+}
+
+body{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: #fff;
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(67, 67, 67));
+}
